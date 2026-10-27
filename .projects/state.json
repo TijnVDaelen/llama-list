@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "providers": {
+    "supabase": {
+      "name": "Supabase"
+    },
+    "vercel": {
+      "name": "Vercel"
+    }
+  },
+  "resources": {
+    "Llama List": {
+      "livemode": true,
+      "name": "Llama List",
+      "providerName": "Supabase",
+      "serviceId": "project"
+    },
+    "llama-list": {
+      "livemode": true,
+      "name": "llama-list",
+      "providerName": "Vercel",
+      "serviceId": "project"
+    },
+    "supabase-plan": {
+      "livemode": true,
+      "name": "supabase-plan",
+      "providerName": "Supabase",
+      "serviceId": "free"
+    },
+    "vercel-plan": {
+      "livemode": true,
+      "name": "vercel-plan",
+      "providerName": "Vercel",
+      "serviceId": "hobby"
+    }
+  }
+}

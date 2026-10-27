@@ -3,7 +3,8 @@ dist/
 .vercel/
 *.log
 
-.projects/
+.projects/*
+!.projects/state.json
 supabase/.temp/
 .DS_Store
 .env

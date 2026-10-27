@@ -33,7 +33,7 @@ The command checks that the project and both providers are linked, the free plan
 
 For a visual check, open [Stripe Projects](https://dashboard.stripe.com/projects), choose **llama-list**, and confirm that Supabase and Vercel are listed. The local CLI check is the source of truth for plans and resource status. [Stripe Projects reference](https://docs.stripe.com/projects).
 
-The checker uses the Stripe CLI on your PATH, or `STRIPE_CLI_PATH` if your CLI is installed elsewhere. On another machine, install the official Stripe CLI/plugin, link the existing project, and run `stripe projects env --pull`. Local credentials and Stripe Projects state are excluded from Git.
+The checker uses the Stripe CLI on your PATH, or `STRIPE_CLI_PATH` if your CLI is installed elsewhere. On another machine, install the official Stripe CLI/plugin, link the existing project, and run `stripe projects env --pull`. Shared provider/resource metadata in `.projects/state.json` is committed so Stripe's leaderboard can validate the stack. Credentials, the vault and local account state are excluded from Git.
 
 ## Development and verification
 
