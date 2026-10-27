@@ -5,6 +5,7 @@ dist/
 
 .projects/*
 !.projects/state.json
+!.projects/state.local.json
 supabase/.temp/
 .DS_Store
 .env

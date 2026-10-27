@@ -1,0 +1,88 @@
+{
+  "version": 4,
+  "project": {
+    "catalog": "prod",
+    "initializedAt": "2026-10-14T09:09:36.838Z",
+    "merchantDisplayName": null,
+    "merchantId": "acct_1SxpvkDMpYhJQpqw",
+    "projectId": "project_61VZm9AmxQwqzmOHt16U7Dt6SrLJDN2PFVV1eXTp24UK",
+    "projectName": "llama-list"
+  },
+  "providers": {
+    "supabase": {
+      "accountRequestId": "facctrq_61VZm9f9AzarO6Hhf16U7Dt6SrLJDN2PFVV1eXTp21zk",
+      "configuration": {},
+      "linkedAt": "2026-10-14T09:10:18.895Z",
+      "providerId": "prvdr_61UIXYHdsyF69pZbG52n2",
+      "providerName": "Supabase",
+      "redirectUrl": null,
+      "requestedAt": "2026-10-14T09:10:18.895Z",
+      "status": "complete"
+    },
+    "vercel": {
+      "accountRequestId": "facctrq_61VZmCI42Z5PQjtys16U7Dt6SrLJDN2PFVV1eXTp25HU",
+      "configuration": {},
+      "linkedAt": "2026-10-14T09:12:54.812Z",
+      "providerId": "prvdr_61ULUAr4zlQgZkvXY5LsG",
+      "providerName": "Vercel",
+      "redirectUrl": null,
+      "requestedAt": "2026-10-14T09:12:54.812Z",
+      "status": "complete"
+    }
+  },
+  "resources": {
+    "Llama List": {
+      "configuration": {
+        "name": "Llama List",
+        "region": "emea"
+      },
+      "createdAt": "2026-10-14T09:13:05.974Z",
+      "lastRevealedAt": "2026-10-14T09:13:06.316Z",
+      "lastStatus": "complete",
+      "livemode": true,
+      "name": "Llama List",
+      "providerId": "prvdr_61UIXYHdsyF69pZbG52n2",
+      "providerName": "Supabase",
+      "resourceId": "fres_61VZmCGOhrx5IMg2C16U7Dt6SrLJDN2PFVV1eXTp2MRE",
+      "serviceId": "project"
+    },
+    "llama-list": {
+      "configuration": {
+        "name": "llama-list"
+      },
+      "createdAt": "2026-10-14T09:16:04.392Z",
+      "lastRevealedAt": "2026-10-14T09:16:04.759Z",
+      "lastStatus": "complete",
+      "livemode": true,
+      "name": "llama-list",
+      "providerId": "prvdr_61ULUAr4zlQgZkvXY5LsG",
+      "providerName": "Vercel",
+      "resourceId": "fres_61VZmFPNBdo2N2dYa16U7Dt6SrLJDN2PFVV1eXTp2D2W",
+      "serviceId": "project"
+    },
+    "supabase-plan": {
+      "configuration": {},
+      "createdAt": "2026-10-14T09:10:37.510Z",
+      "lastRevealedAt": "2026-10-14T09:10:37.820Z",
+      "lastStatus": "complete",
+      "livemode": true,
+      "name": "supabase-plan",
+      "providerId": "prvdr_61UIXYHdsyF69pZbG52n2",
+      "providerName": "Supabase",
+      "resourceId": "fres_61VZm9r3bfJ0EeHzA16U7Dt6SrLJDN2PFVV1eXTp2JCC",
+      "serviceId": "free"
+    },
+    "vercel-plan": {
+      "configuration": {},
+      "createdAt": "2026-10-14T09:12:56.306Z",
+      "lastRevealedAt": "2026-10-14T09:12:56.636Z",
+      "lastStatus": "complete",
+      "livemode": true,
+      "name": "vercel-plan",
+      "providerId": "prvdr_61ULUAr4zlQgZkvXY5LsG",
+      "providerName": "Vercel",
+      "resourceId": "fres_61VZmCNRC4Uh0oxf616U7Dt6SrLJDN2PFVV1eXTp2ARU",
+      "serviceId": "hobby"
+    }
+  }
+}
